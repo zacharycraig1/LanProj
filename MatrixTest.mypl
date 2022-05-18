@@ -1,0 +1,46 @@
+
+
+
+
+fun int main()
+#DECLARATION
+  var A = [1.0,2.0,3.0;4.0,5.0,6.0;1.0,2.0,3.0]
+  var B = [1.0,2.0,3.0;4.0,5.0,3.0;1.0,2.0,3.0]
+  #var D = [2.0,2.0,2.0;2.0,1.0,2.0]
+  #var Z = m_singleton( 1.0, 2, 3)
+#ADDITION
+  #var C = (A + B)
+  
+#SUBSTRACTION
+  var C = A + B
+  #var C = 
+#MODULO
+  #var C = A % 2
+#TRANPOSE
+  #var C = ~A
+  #var C = ~([0.0,0.0,0.0;1.0,1.0,1.0;1.0,1.0,1.0] + B)
+#MULTIPLY
+  #var C = 2.0 * A
+  #var C = A * 2.0
+  #var C = 2 * A
+  #var C = A * 2
+  #var C = A .* B
+  #var C = (A * B)
+  #var C = (((A * A) * A) * A)
+#DIVIDE
+  #var C = A / 2.0
+  #var C = A ./ B
+  #var C = A / 2
+#ASSIGN
+  #C = D
+#EXPONENTIATE
+  #var D = A ^ 4
+  m_print(C)
+  #m_print(D)
+  #print( dtos ( m_get ( D , 1 , 2 ) ) )
+  #m_print(Z)
+  
+ 
+  
+  
+end
