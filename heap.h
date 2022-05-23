@@ -1,15 +1,8 @@
 //----------------------------------------------------------------------
-// Name: S. Bowers
+// Name: Zachary Craig
 // File: heap.h
 // Date: Spring 2021
-// Desc: Basic Heap implementation for the MyPL Interpreter. The Heap
-//       is used to store objects of user-defined types. Each object
-//       has a unique object id (OID) and a collection of key-value
-//       pairs. The keys denote user-defined type variable names and
-//       the values denote the corresponding variable values. Each
-//       value is represented as a DataObject. The key-value pairs are
-//       represented as HeapObjects.
-//----------------------------------------------------------------------
+
 
 #ifndef HEAP_H
 #define HEAP_H
