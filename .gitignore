@@ -1,10 +1,4 @@
-# ----------------------------------------------------------------------
-# C++ Project Specific
-# ----------------------------------------------------------------------
 
-# assignment executable output files
-hw[0-9]
-hw[0-9][0-9]
 
 #blanket ignored files (all files with the following extensions)
 *.txt
