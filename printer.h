@@ -49,7 +49,7 @@ private:
     void dec_indent() { indent -= 3; }
     std::string get_indent() { return std::string(indent, ' '); }
 };
-// TODO: Implement the visitor functions
+
 //Visit root node
 
 void Printer::visit(Program& node)
