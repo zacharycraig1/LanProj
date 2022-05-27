@@ -97,8 +97,7 @@ void TypeChecker::initialize_built_in_types()
      sym_table.add_name("m_singleton");
      sym_table.set_vec_info("m_singleton",StringVec{"double", "int", "int", "matrix"});
     
-    // TODO: finish the rest of the built-in functions: stod, itos,
-    // dtos, get, length, and read
+    
 }
 void TypeChecker::visit(MatrixValue& node) {
 
@@ -141,18 +140,16 @@ void TypeChecker::visit(Program& node)
         if (the_type[the_type.size() - 1] != "int") {
             error("Incorrect main function signature");
         }
-        // TODO: finish checking that the main function is defined with
-        // the correct signature
+      
     }
     else {
-        // NOTE: the only time the 1-argument version of error should be
-        // called!
+    
         error("undefined 'main' function");
     }
     // pop the global environment
     sym_table.pop_environment();
 }
-// TODO: Implement the remaining visitor functions
+
 
 void TypeChecker::visit(FunDecl& node)
 {
