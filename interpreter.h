@@ -4,7 +4,6 @@
 // DATE:4/5/2021
 // DESC: Implementation of interpreter
 //----------------------------------------------------------------------
-
 #ifndef INTERPRETER_H
 #define INTERPRETER_H
 
