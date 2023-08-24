@@ -1,0 +1,21 @@
+fun nil f7(x: int, z: bool,y:int)
+  f7(1, true)
+end
+
+
+
+
+
+
+
+
+fun int main()
+  print("hello world")
+  var x: int = stoi("1")
+  var y: double = stod("3.14")
+  var z: string = itos(42)
+  var u: string = dtos(3.14159)
+  var v: char = get(0, "ab")
+  var r: int = length("ab")
+  var s: string = read()
+end
