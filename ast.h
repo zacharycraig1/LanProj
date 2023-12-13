@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------
-// DESC: AST types for MyPL implementation. Each AST node is
+// DESC : AST types for MyPL implementation. Each AST node is
 //       implemented as POD (plain old data) types, with all data
 //       public, with the exception of the visitor abstraction (i.e.,
 //       the accept function) and a destrutor for dynamic memory. Note
