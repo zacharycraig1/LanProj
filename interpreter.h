@@ -1,8 +1,8 @@
 //----------------------------------------------------------------------
-// NAME:Zachary Craig
-// FILE:interpreter.h
-// DATE:4/5/2021
-// DESC: Implementation of interpreter
+// Zachary Craig
+// interpreter.h
+// 4/5/2021
+// Implementation of interpreter
 //----------------------------------------------------------------------
 #ifndef INTERPRETER_H
 #define INTERPRETER_H
