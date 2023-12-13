@@ -1,6 +1,6 @@
 
 // DESC: Custom exception class for mypl errors. Breaks error messages
-//       into phases of lexical analysis, syntax analysis, semantic
+//       i nto phases of lexical analysis, syntax analysis, semantic
 //       analysis and runtim.
 //----------------------------------------------------------------------
 
