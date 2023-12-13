@@ -1,7 +1,7 @@
 //----------------------------------------------------------------------
 // NAME:Zachary Craig
 // FILE:Printer.h
-// DATE:12/24/2021
+
 // DESC:Implementation of pretty-print object.  Navigates AST tree to produce pretty-printed mypl code.
 //----------------------------------------------------------------------
 
